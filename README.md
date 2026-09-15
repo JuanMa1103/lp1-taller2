@@ -22,7 +22,7 @@ Este repositorio contiene **9 problemas** progresivos para que un estudiante des
 
 1. Prepara el ambiente de desarrollo con Python 3.9+ o superior instalado.
 
-2. Ingresa a `https://github.com/UR-CC/lp1-taller2` y realiza un **fork** con tu cuenta.
+2. Ingresa a `https://github.com/clubdecomputacion/lp1-taller2` y realiza un **fork** con tu cuenta.
 
 3. Clona tu **fork** del repositorio `lp1-taller2`:
 
