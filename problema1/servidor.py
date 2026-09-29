@@ -31,7 +31,7 @@ cliente, direccion = SERVIDOR.accept()
 # conn: nuevo socket para comunicarse con el cliente
 # direccion: dirección y puerto del cliente
 
-print(f"el cliente {cliente} se conecto desde la direccion {direccion}" )
+print(f"el cliente se conecto desde la direccion {direccion}" )
 
 # TODO: Recibir datos del cliente (hasta 1024 bytes)
 datos = cliente.recv(1024)
