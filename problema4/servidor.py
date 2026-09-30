@@ -29,7 +29,6 @@ class servidor(http.server.SimpleHTTPRequestHandler):
 
 # TODO: Crear una instancia de servidor HTTP
 server = http.server.HTTPServer((HOST, PORT), servidor)
-server.serve_forever()
 # HTTPServer maneja las conexiones entrantes y delega el procesamiento
 # de peticiones al manejador especificado (MyRequestHandler)
 # Parámetros:
@@ -39,4 +38,4 @@ server.serve_forever()
 # TODO: Iniciar el servidor y ponerlo en ejecución continua
 # serve_forever() maneja peticiones indefinidamente hasta una interrupción
 # (normalmente con Ctrl+C en la terminal)
-
+server.serve_forever()
